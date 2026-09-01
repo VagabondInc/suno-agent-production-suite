@@ -1,0 +1,6 @@
+interface:
+  display_name: "NeuralFrames Autopilot Video"
+  short_description: "Build a cinematic NeuralFrames video scaffold."
+  default_prompt: "Use $neuralframes-autopilot-video to build a cinematic video scaffold for my song."
+policy:
+  allow_implicit_invocation: true
