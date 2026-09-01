@@ -1,0 +1,1 @@
+Binary conversion fallback disabled; Git data API step pending.
