@@ -1,0 +1,45 @@
+{
+  "name": "suno",
+  "version": "1.0.0+codex.20260901115152",
+  "description": "Professional Suno songwriting plus cinematic NeuralFrames and fal.ai music-video production workflows.",
+  "author": {
+    "name": "Justin Tyler Moore"
+  },
+  "keywords": [
+    "suno",
+    "songwriting",
+    "lyrics",
+    "music",
+    "experimental-music",
+    "prompting",
+    "music-video",
+    "neuralframes",
+    "fal-ai"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Suno",
+    "shortDescription": "Write exceptional songs and build cinematic videos.",
+    "longDescription": "A professional songwriting and music-video production suite with exact Suno style briefs, anti-cliche lyric craft, experimental tags and genre fusions, NeuralFrames Autopilot browser assistance, and budgeted multi-agent fal.ai workflow design.",
+    "developerName": "Justin Tyler Moore",
+    "category": "Creativity",
+    "capabilities": [
+      "Write",
+      "Interactive",
+      "Browser Assist",
+      "Music Video",
+      "Workflow Design"
+    ],
+    "defaultPrompt": [
+      "Write an experimental Suno song from my concept.",
+      "Turn these lyrics into a Suno production package.",
+      "Rewrite my lyrics without generic AI tropes.",
+      "Build a NeuralFrames music-video scaffold.",
+      "Design a budgeted fal.ai workflow for my full song."
+    ],
+    "brandColor": "#F35B3F",
+    "composerIcon": "./assets/suno-icon.png",
+    "logo": "./assets/suno-icon.png",
+    "logoDark": "./assets/suno-icon.png"
+  }
+}
