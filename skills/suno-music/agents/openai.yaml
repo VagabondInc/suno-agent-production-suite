@@ -1,0 +1,6 @@
+interface:
+  display_name: "Suno Songwriter"
+  short_description: "Write and fill complete Suno Custom song packages"
+  default_prompt: "Use $suno-music to write an original song and fill every Suno Custom field."
+policy:
+  allow_implicit_invocation: true
