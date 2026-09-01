@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Suno Agent Production Suite icon">
+  <defs>
+    <linearGradient id="g" x1="20" y1="20" x2="236" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4FD8"/>
+      <stop offset=".46" stop-color="#7C6CFF"/>
+      <stop offset=".76" stop-color="#27D7FF"/>
+      <stop offset="1" stop-color="#FF9D3D"/>
+    </linearGradient>
+    <radialGradient id="bg" cx=".35" cy=".25" r=".9">
+      <stop stop-color="#151B3C"/>
+      <stop offset="1" stop-color="#050713"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="62" fill="url(#bg)" stroke="url(#g)" stroke-width="8"/>
+  <circle cx="128" cy="128" r="76" fill="none" stroke="url(#g)" stroke-opacity=".24" stroke-width="3"/>
+  <path d="M50 140h18l10-38 16 71 18-92 17 70 14-43 13 32h18l11-23 12 23h19" fill="none" stroke="url(#g)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="78" cy="102" r="7" fill="#FF55D9"/>
+  <circle cx="112" cy="81" r="7" fill="#8B72FF"/>
+  <circle cx="156" cy="108" r="7" fill="#35DCFF"/>
+  <circle cx="185" cy="117" r="7" fill="#FFAA4D"/>
+</svg>
