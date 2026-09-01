@@ -1,0 +1,6 @@
+interface:
+  display_name: "Chart Lyricist"
+  short_description: "Write vivid, original, performance-ready lyrics."
+  default_prompt: "Use $chart-lyricist to write and rigorously revise distinctive lyrics for my song."
+policy:
+  allow_implicit_invocation: true
