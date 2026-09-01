@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Suno Agent Production Suite</title>
+  <desc id="desc">A cinematic neon hero banner for a multi-agent AI music and video production toolkit.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050713"/>
+      <stop offset="0.48" stop-color="#0a1024"/>
+      <stop offset="1" stop-color="#130717"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4fd8"/>
+      <stop offset="0.45" stop-color="#7c6cff"/>
+      <stop offset="0.72" stop-color="#27d7ff"/>
+      <stop offset="1" stop-color="#ff9d3d"/>
+    </linearGradient>
+    <linearGradient id="cyanPink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#27e6ff"/>
+      <stop offset="1" stop-color="#ff4fd8"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7c6cff" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#27d7ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#27d7ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#7c6cff" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <clipPath id="rightClip"><rect x="910" y="0" width="690" height="600" rx="0"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="600" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="600" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1330" cy="225" rx="390" ry="300" fill="#3e1a72" opacity="0.28" filter="url(#soft)"/>
+  <ellipse cx="1120" cy="360" rx="300" ry="220" fill="#008fb8" opacity="0.18" filter="url(#soft)"/>
+
+  <!-- left copy -->
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="78" y="76" fill="#c9c8d8" font-size="19" font-weight="700" letter-spacing="5">AI AGENTS · MUSIC · VIDEO · PRODUCTION</text>
+    <text x="78" y="175" fill="#ffffff" font-size="72" font-weight="900" letter-spacing="1">SUNO AGENT</text>
+    <text x="78" y="247" fill="url(#neon)" font-size="67" font-weight="900" letter-spacing="1">PRODUCTION SUITE</text>
+    <text x="82" y="299" fill="#c9c8d8" font-size="25" font-weight="500">From song idea → chart-ready lyrics → cinematic AI music video</text>
+
+    <g transform="translate(80 346)">
+      <rect width="360" height="84" rx="18" fill="#10152b" stroke="#b255ff" stroke-opacity="0.42"/>
+      <circle cx="42" cy="42" r="25" fill="#7d38bd" opacity="0.55"/>
+      <path d="M34 51V31l21-5v20" fill="none" stroke="#f0a9ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="31" cy="53" r="6" fill="#f0a9ff"/><circle cx="52" cy="48" r="6" fill="#f0a9ff"/>
+      <text x="82" y="35" fill="#ffffff" font-size="20" font-weight="800">Suno Songwriter</text>
+      <text x="82" y="61" fill="#aeb6d1" font-size="16">Production-ready song packages</text>
+    </g>
+
+    <g transform="translate(456 346)">
+      <rect width="360" height="84" rx="18" fill="#10152b" stroke="#27d7ff" stroke-opacity="0.42"/>
+      <circle cx="42" cy="42" r="25" fill="#0aa4c8" opacity="0.42"/>
+      <path d="M29 32h27M29 42h21M29 52h16M52 52l8-8 5 5-8 8-8 2z" fill="none" stroke="#7cecff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="82" y="35" fill="#ffffff" font-size="20" font-weight="800">Chart Lyricist</text>
+      <text x="82" y="61" fill="#aeb6d1" font-size="16">Specific lyrics. Stronger hooks.</text>
+    </g>
+
+    <g transform="translate(80 447)">
+      <rect width="360" height="84" rx="18" fill="#10152b" stroke="#ff4fd8" stroke-opacity="0.42"/>
+      <circle cx="42" cy="42" r="25" fill="#b927a1" opacity="0.42"/>
+      <rect x="27" y="29" width="30" height="26" rx="3" fill="none" stroke="#ff95e8" stroke-width="3"/>
+      <path d="M36 29v26M48 29v26M27 38h30M27 47h30" stroke="#ff95e8" stroke-width="2" opacity="0.9"/>
+      <text x="82" y="35" fill="#ffffff" font-size="20" font-weight="800">NeuralFrames Autopilot</text>
+      <text x="82" y="61" fill="#aeb6d1" font-size="16">Music-synced cinematic direction</text>
+    </g>
+
+    <g transform="translate(456 447)">
+      <rect width="360" height="84" rx="18" fill="#10152b" stroke="#ff9d3d" stroke-opacity="0.42"/>
+      <circle cx="42" cy="42" r="25" fill="#d56d14" opacity="0.42"/>
+      <path d="M30 45h8l4-15 6 25 5-12h7" fill="none" stroke="#ffc070" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="82" y="35" fill="#ffffff" font-size="20" font-weight="800">fal.ai Video Builder</text>
+      <text x="82" y="61" fill="#aeb6d1" font-size="16">Budget-aware multi-agent workflows</text>
+    </g>
+
+    <text x="81" y="572" fill="#7f89a8" font-size="15" font-weight="600" letter-spacing="1.2">OPENAI CODEX SKILLS · HUMAN REVIEW BEFORE PAID GENERATION</text>
+  </g>
+
+  <!-- right cinematic system -->
+  <g clip-path="url(#rightClip)">
+    <circle cx="1240" cy="250" r="250" fill="url(#orb)" opacity="0.55"/>
+    <circle cx="1265" cy="244" r="145" fill="none" stroke="url(#cyanPink)" stroke-width="2" opacity="0.45"/>
+    <circle cx="1265" cy="244" r="184" fill="none" stroke="#a467ff" stroke-width="1.2" stroke-dasharray="7 15" opacity="0.4"/>
+    <circle cx="1265" cy="244" r="220" fill="none" stroke="#29dcff" stroke-width="1" stroke-dasharray="2 17" opacity="0.25"/>
+
+    <!-- stylized profile / agent core -->
+    <path d="M1194 122c-75 9-117 62-115 133 2 47 19 77 44 103 15 16 23 37 21 66h147c-4-32 4-58 25-78 31-30 49-71 44-118-7-71-78-116-166-106z" fill="#070a16" stroke="#4f58a9" stroke-width="2"/>
+    <path d="M1170 179c25-48 105-61 152-16 25 24 34 59 27 93-8 37-34 58-63 75-14 8-18 29-18 51h-85c1-35-10-56-31-77-34-34-33-86-7-126 6-9 15-17 25-24z" fill="#0e1230"/>
+    <path d="M1137 229c18-11 36-15 54-12 38 6 67 31 87 66" fill="none" stroke="#ff4fd8" stroke-width="4" filter="url(#glow)" opacity="0.85"/>
+    <path d="M1162 168c31-26 86-33 126-10" fill="none" stroke="#29dcff" stroke-width="3" filter="url(#glow)" opacity="0.78"/>
+    <path d="M1100 268c-22 0-35 11-35 31v37c0 19 13 30 34 30" fill="none" stroke="#815cff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M1365 268c22 0 35 11 35 31v37c0 19-13 30-34 30" fill="none" stroke="#ff4fd8" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- waveform -->
+    <g transform="translate(945 416)" fill="none" stroke-linecap="round">
+      <path d="M0 64 C16 64 18 39 29 39S43 83 57 83 69 19 82 19 97 94 112 94 126 51 141 51 157 72 171 72 187 28 203 28 217 92 233 92 247 10 264 10 280 104 296 104 311 47 329 47 343 74 359 74 375 32 393 32 410 93 427 93 445 18 461 18 480 100 497 100 514 43 531 43 548 76 563 76 580 55 598 55 617 66 635 66" stroke="url(#neon)" stroke-width="5" filter="url(#glow)"/>
+      <path d="M0 66H635" stroke="#565f8e" stroke-opacity="0.32"/>
+    </g>
+
+    <!-- film strip -->
+    <g transform="translate(1030 493) rotate(-7)">
+      <rect width="520" height="82" rx="12" fill="#070910" stroke="#5a5e88" stroke-width="2"/>
+      <g fill="#2a2e48">
+        <rect x="14" y="10" width="24" height="10" rx="2"/><rect x="52" y="10" width="24" height="10" rx="2"/><rect x="90" y="10" width="24" height="10" rx="2"/><rect x="128" y="10" width="24" height="10" rx="2"/><rect x="166" y="10" width="24" height="10" rx="2"/><rect x="204" y="10" width="24" height="10" rx="2"/><rect x="242" y="10" width="24" height="10" rx="2"/><rect x="280" y="10" width="24" height="10" rx="2"/><rect x="318" y="10" width="24" height="10" rx="2"/><rect x="356" y="10" width="24" height="10" rx="2"/><rect x="394" y="10" width="24" height="10" rx="2"/><rect x="432" y="10" width="24" height="10" rx="2"/><rect x="470" y="10" width="24" height="10" rx="2"/>
+      </g>
+      <rect x="19" y="27" width="110" height="43" rx="5" fill="#191542"/><rect x="139" y="27" width="110" height="43" rx="5" fill="#102c42"/><rect x="259" y="27" width="110" height="43" rx="5" fill="#3c1237"/><rect x="379" y="27" width="122" height="43" rx="5" fill="#412a12"/>
+      <circle cx="74" cy="48" r="10" fill="#b85cff" opacity="0.8"/><path d="M178 52l15-15 17 18 14-10 18 18" fill="none" stroke="#42ddff" stroke-width="3"/><path d="M286 55h55M298 43h31" stroke="#ff64d8" stroke-width="4" stroke-linecap="round"/><path d="M410 56l17-20 13 14 15-24 21 30" fill="none" stroke="#ffae4d" stroke-width="3"/>
+    </g>
+
+    <g transform="translate(1313 60)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+      <rect x="0" y="0" width="206" height="82" rx="41" fill="#080b19" stroke="url(#cyanPink)" stroke-width="2"/>
+      <text x="103" y="31" fill="#70e9ff" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="2">POWERED BY</text>
+      <text x="103" y="55" fill="#ffffff" font-size="14" font-weight="650" text-anchor="middle">Codex · Suno · fal.ai</text>
+      <text x="103" y="73" fill="#b5bdd4" font-size="12" text-anchor="middle">NeuralFrames · Multi-Agent AI</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="598" rx="27" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.3"/>
+</svg>
