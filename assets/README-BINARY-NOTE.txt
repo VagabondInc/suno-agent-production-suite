@@ -1,0 +1,1 @@
+Temporary staging marker. Remove after binary icon materialization.
