@@ -1,0 +1,1 @@
+The generated hero banner will be stored at assets/readme-hero.webp and embedded from README.md.
