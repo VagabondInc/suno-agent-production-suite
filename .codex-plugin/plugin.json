@@ -38,8 +38,8 @@
       "Design a budgeted fal.ai workflow for my full song."
     ],
     "brandColor": "#F35B3F",
-    "composerIcon": "./assets/suno-icon.png",
-    "logo": "./assets/suno-icon.png",
-    "logoDark": "./assets/suno-icon.png"
+    "composerIcon": "./assets/suno-icon.svg",
+    "logo": "./assets/suno-icon.svg",
+    "logoDark": "./assets/suno-icon.svg"
   }
 }
