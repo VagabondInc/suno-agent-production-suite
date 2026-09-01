@@ -1,0 +1,6 @@
+interface:
+  display_name: "fal.ai Music Video Builder"
+  short_description: "Design and import a budgeted fal.ai music video."
+  default_prompt: "Use $fal-music-video-builder to design a timed fal.ai workflow for my song."
+policy:
+  allow_implicit_invocation: true
